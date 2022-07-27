@@ -28,6 +28,8 @@ public class RegistrationPage extends Common {
     public WebElement years;
     @FindBy(id = "verify")
     public WebElement submitButton;
+    @FindBy(xpath = "//div[contains(text(),'উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়ে')]")
+    public WebElement alertTitle;
     public String alreadyregistredText = "উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়েছে!";
 
     @Step("Click to Registration button")
