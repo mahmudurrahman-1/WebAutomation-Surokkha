@@ -28,9 +28,9 @@ public class RegistrationPage extends Common {
     public WebElement years;
     @FindBy(id = "verify")
     public WebElement submitButton;
-    @FindBy(xpath = "//div[contains(text(),'উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়ে')]")
+    @FindBy(xpath = "//div[contains(text(),'উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়নি!')]")
     public WebElement alertTitle;
-    public String alreadyregistredText = "উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়েছে!";
+    public String notregistredText = "উক্ত জাতীয় পরিচয়পত্র দ্বারা পূর্বে নিবন্ধন করা হয়নি!";
 
     @Step("Click to Registration button")
     public void ClickRegButton() {
@@ -38,12 +38,13 @@ public class RegistrationPage extends Common {
     }
 
     @Step("All the inputs for registration")
-    public void StartRegistration(String categories, String idno, String day, int month, int year) {
+    public boolean StartRegistration(String categories, String idno, String day, int month, int year) {
         selectitem(peopleCategories, categories);
         sendText(nIDNo, idno);
         selectitem(days, day);
         selectitembynumber(months, month);
         selectitembynumber(years, year);
+        return false;
     }
 
     @Step("Submit button")
