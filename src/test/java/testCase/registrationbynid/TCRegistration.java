@@ -1,11 +1,11 @@
-package testCase;
+package testCase.registrationbynid;
 
 import baseDriver.MainDriver;
 import dataSet.SQL;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pageObject.HomePage;
-import pageObject.RegistrationPage;
+import pageObject.registration.nid.RegistrationPage;
 import utilitiesPackage.ScreenShots;
 
 public class TCRegistration extends MainDriver {
