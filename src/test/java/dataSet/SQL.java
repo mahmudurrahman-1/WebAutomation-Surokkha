@@ -10,6 +10,7 @@ public class SQL {
         Object[][] data = {{"1", "5164960577", "22", 11, 6}};
         return data;
     }
+
     @Step("Registration By DOB Data")
     @DataProvider(name = "dobdata")
     public static Object[][] registrationDOB() {
