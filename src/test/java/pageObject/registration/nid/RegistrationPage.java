@@ -1,4 +1,4 @@
-package pageObject;
+package pageObject.registration.nid;
 
 import baseDriver.PageDriver;
 import io.qameta.allure.Step;
