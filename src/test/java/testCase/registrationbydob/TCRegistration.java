@@ -10,14 +10,14 @@ import pageObject.registration.dob.RegistrationPage;
 import utilitiesPackage.ScreenShots;
 
 public class TCRegistration extends MainDriver {
-    @Test(description = "Registration by Date of birth", dataProvider ="dobdata",dataProviderClass = SQL.class)
-    public void registrationbyDob(String dobNo,String day,int month,int year) throws InterruptedException  {
+    @Test(description = "Registration by Date of birth", dataProvider = "dobdata", dataProviderClass = SQL.class)
+    public void registrationbyDob(String dobNo, String day, int month, int year) throws InterruptedException {
         /***************
          * All the Instance of classes*
          */
         HomePage home = new HomePage();
         RegistrationPage register = new RegistrationPage();
-        SoftAssert softly =new SoftAssert();
+        SoftAssert softly = new SoftAssert();
 
         /***************
          * All the methods of classes
@@ -30,10 +30,10 @@ public class TCRegistration extends MainDriver {
         register.ClickToRegisterbydobButton();
         //Taking ScreenShot
         ScreenShots.screenshotForAllure("Registration for DOB Module");
-        softly.assertFalse(register.RegistrationbyData(dobNo,day,month,year));
+        softly.assertFalse(register.RegistrationbyData(dobNo, day, month, year));
         Thread.sleep(10000);
         register.submitButton();
         ScreenShots.screenshotForAllure("Registration for DOB Module");
-        softly.assertEquals(register.errorText,register.wrongText);
+        softly.assertEquals(register.errorText, register.wrongText);
     }
 }
