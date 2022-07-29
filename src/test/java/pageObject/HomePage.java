@@ -14,6 +14,7 @@ public class HomePage extends Common {
 
     @FindBy(css = "a[class='su-h-reg-card']")
     public WebElement registerButton;
+
     @Step("Click for registration")
     public void ClickToRegister() {
         registerButton.click();
