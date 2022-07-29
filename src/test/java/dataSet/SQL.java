@@ -18,6 +18,12 @@ public class SQL {
         return data;
     }
 
+    @Step("Registration by Passport Data")
+    @DataProvider(name = "passportdata")
+    public static Object[][] registrationPassport() {
+        Object[][] data = {{"3", "AC0215425", "22", 11, 6}};
+        return data;
+    }
     @DataProvider(name = "verifydata")
     public static Object[][] verifyInfos() {
         Object[][] data = {{"1", "5164960577", "22", 2, 6}};
