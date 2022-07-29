@@ -1,4 +1,5 @@
-## This Project is continuing 
+## This Project is continuing
+
 (surokkha.gov.bd) website automation project with selenium java
 
 ## This project covers the following scenario:
@@ -8,13 +9,12 @@
 3. Registration with valid dob no
 4. Registration with valid passport no
 5. Go to each module section > enter required information
-6. Now get your card from Card Section 
+6. Now get your card from Card Section
 7. Collect card with registered nid no
 8. Collect card with registered dob no
 9. Collect card with registered passport no
 10. Do same for collecting certificate
 11. Do same for checking certificate
-
 
 ## This project covers the following topics:
 
