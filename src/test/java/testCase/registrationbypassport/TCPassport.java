@@ -10,7 +10,7 @@ import utilitiesPackage.ScreenShots;
 
 public class TCPassport extends MainDriver {
     @Test(description = "Registration by Date of birth", dataProvider = "passportdata", dataProviderClass = SQL.class)
-    public void registrationbyPassportdata(String select, String passportno, String day, int month, int year) throws InterruptedException {
+    public void registrationbyPassportdata(int select, String passportno, String day, int month, int year) throws InterruptedException {
         /***************
          * All the Instance of classes*
          */
