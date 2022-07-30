@@ -21,7 +21,7 @@ public class SQL {
     @Step("Registration by Passport Data")
     @DataProvider(name = "passportdata")
     public static Object[][] registrationPassport() {
-        Object[][] data = {{"3", "AC0215425", "22", 11, 6}};
+        Object[][] data = {{3, "AC0215425", "22", 11, 18}};
         return data;
     }
     @DataProvider(name = "verifydata")
