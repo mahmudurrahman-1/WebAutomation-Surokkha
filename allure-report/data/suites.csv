@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jul 30 13:09:32 BDT 2022","Sat Jul 30 13:09:55 BDT 2022","22764","Default Suite","Surokkha","testCase.registrationbypassport.TCPassport","testCase.registrationbypassport.TCPassport","registrationbyPassportdata","Registration by Date of birth",""
+"passed","Fri Jul 29 10:03:32 BDT 2022","Fri Jul 29 10:03:57 BDT 2022","24943","Default Suite","Surokkha","testCase.registrationbydob.TCRegistration","testCase.registrationbydob.TCRegistration","registrationbyDob","Registration by Date of birth",""
+"passed","Thu Jul 28 23:59:28 BDT 2022","Thu Jul 28 23:59:53 BDT 2022","24745","Default Suite","Surokkha","testCase.TCRegistration","testCase.TCRegistration","Registration","This Part is Used for registration",""

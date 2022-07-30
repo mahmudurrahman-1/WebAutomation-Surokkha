@@ -1,0 +1,135 @@
+{
+  "uid" : "165f60bf090b8475",
+  "name" : "Registration by Date of birth",
+  "fullName" : "testCase.registrationbypassport.TCPassport.registrationbyPassportdata",
+  "historyId" : "32a4d8acd66d8724b61f3993df2a511c",
+  "time" : {
+    "start" : 1659164972543,
+    "stop" : 1659164995307,
+    "duration" : 22764
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1659164958741,
+      "stop" : 1659164972417,
+      "duration" : 13676
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4070750362a6d466",
+      "name" : "Registration for passport Module",
+      "source" : "4070750362a6d466.png",
+      "type" : "image/png",
+      "size" : 71315
+    }, {
+      "uid" : "415f91be886d33af",
+      "name" : "Registration for passport Module",
+      "source" : "415f91be886d33af.png",
+      "type" : "image/png",
+      "size" : 236858
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1659164995424,
+      "stop" : 1659164996016,
+      "duration" : 592
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCase.registrationbypassport.TCPassport"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.registrationbypassport.TCPassport"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationbyPassportdata"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surokkha"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCase.registrationbypassport.TCPassport"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C4C8A1FN"
+  }, {
+    "name" : "thread",
+    "value" : "16616@LAPTOP-C4C8A1FN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "3"
+  }, {
+    "name" : "arg1",
+    "value" : "AC0215425"
+  }, {
+    "name" : "arg2",
+    "value" : "22"
+  }, {
+    "name" : "arg3",
+    "value" : "11"
+  }, {
+    "name" : "arg4",
+    "value" : "18"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "165f60bf090b8475.json",
+  "parameterValues" : [ "3", "AC0215425", "22", "11", "18" ]
+}

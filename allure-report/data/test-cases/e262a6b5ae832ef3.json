@@ -1,0 +1,149 @@
+{
+  "uid" : "e262a6b5ae832ef3",
+  "name" : "Registration by Date of birth",
+  "fullName" : "testCase.registrationbydob.TCRegistration.registrationbyDob",
+  "historyId" : "46786fa8ca14b738986c27d80353eef3",
+  "time" : {
+    "start" : 1659067412697,
+    "stop" : 1659067437640,
+    "duration" : 24943
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1659067396254,
+      "stop" : 1659067412487,
+      "duration" : 16233
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ead44cf599ff493e",
+      "name" : "Registration for DOB Module",
+      "source" : "ead44cf599ff493e.png",
+      "type" : "image/png",
+      "size" : 224240
+    }, {
+      "uid" : "634f5bb549ec67a",
+      "name" : "Registration for DOB Module",
+      "source" : "634f5bb549ec67a.png",
+      "type" : "image/png",
+      "size" : 229043
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1659067437886,
+      "stop" : 1659067439015,
+      "duration" : 1129
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCase.registrationbydob.TCRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.registrationbydob.TCRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationbyDob"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surokkha"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCase.registrationbydob.TCRegistration"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C4C8A1FN"
+  }, {
+    "name" : "thread",
+    "value" : "5064@LAPTOP-C4C8A1FN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "105462895164960577"
+  }, {
+    "name" : "arg1",
+    "value" : "29"
+  }, {
+    "name" : "arg2",
+    "value" : "8"
+  }, {
+    "name" : "arg3",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5400c192c249c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659066667745,
+        "stop" : 1659066668551,
+        "duration" : 806
+      }
+    }, {
+      "uid" : "5a3dca733ce1d016",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //a[contains(text(),'জন্ম নিবন্ধন সার্টিফিকেট') because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[contains(text(),'জন্ম নিবন্ধন সার্টিফিকেট')' is not a valid XPath expression.\n  (Session info: MicrosoftEdge=103.0.1264.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LAPTOP-C4C8A1FN', ip: '192.168.43.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [08136244ecef36c709aac1f0c0504421, findElement {using=xpath, value=//a[contains(text(),'জন্ম নিবন্ধন সার্টিফিকেট')}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.71, ms:edgeOptions: {debuggerAddress: localhost:51592}, msedge: {msedgedriverVersion: 103.0.1264.71 (1f7a1d165042..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51592/devtoo..., se:cdpVersion: 103.0.1264.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 08136244ecef36c709aac1f0c0504421",
+      "time" : {
+        "start" : 1659066510590,
+        "stop" : 1659066511803,
+        "duration" : 1213
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e262a6b5ae832ef3.json",
+  "parameterValues" : [ "105462895164960577", "29", "8", "2" ]
+}

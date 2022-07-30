@@ -1,0 +1,76 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "Surokkha",
+      "children" : [ {
+        "name" : "testCase.TCRegistration",
+        "children" : [ {
+          "name" : "This Part is Used for registration",
+          "uid" : "c73e7ae592db09cc",
+          "parentUid" : "cc11e2b42b8fda35cc6a9994d32a8026",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659031168760,
+            "stop" : 1659031193505,
+            "duration" : 24745
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "1", "5164960577", "22", "11", "6" ]
+        } ],
+        "uid" : "cc11e2b42b8fda35cc6a9994d32a8026"
+      }, {
+        "name" : "testCase.registrationbydob.TCRegistration",
+        "children" : [ {
+          "name" : "Registration by Date of birth",
+          "uid" : "e262a6b5ae832ef3",
+          "parentUid" : "edda4c2f1efc162c1705f42b8c12dbad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659067412697,
+            "stop" : 1659067437640,
+            "duration" : 24943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ "105462895164960577", "29", "8", "2" ]
+        } ],
+        "uid" : "edda4c2f1efc162c1705f42b8c12dbad"
+      }, {
+        "name" : "testCase.registrationbypassport.TCPassport",
+        "children" : [ {
+          "name" : "Registration by Date of birth",
+          "uid" : "165f60bf090b8475",
+          "parentUid" : "a17389f6545f08c083952caebcea5ea8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659164972543,
+            "stop" : 1659164995307,
+            "duration" : 22764
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "3", "AC0215425", "22", "11", "18" ]
+        } ],
+        "uid" : "a17389f6545f08c083952caebcea5ea8"
+      } ],
+      "uid" : "d59dc2ab7adeba753484519065a77727"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

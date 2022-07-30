@@ -1,0 +1,114 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-C4C8A1FN",
+    "children" : [ {
+      "name" : "9104@LAPTOP-C4C8A1FN.main(1)",
+      "children" : [ {
+        "name" : "This Part is Used for registration",
+        "uid" : "c73e7ae592db09cc",
+        "parentUid" : "7105c9e41b1f48f2e4fadd1f05019065",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659031168760,
+          "stop" : 1659031193505,
+          "duration" : 24745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "1", "5164960577", "22", "11", "6" ]
+      } ],
+      "uid" : "7105c9e41b1f48f2e4fadd1f05019065"
+    }, {
+      "name" : "16812@LAPTOP-C4C8A1FN.main(1)",
+      "children" : [ {
+        "name" : "Registration by Date of birth",
+        "uid" : "a5400c192c249c48",
+        "parentUid" : "fde2fd9cbecd187e2af8aa7a257c1251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659066667745,
+          "stop" : 1659066668551,
+          "duration" : 806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "105462895164960577", "29", "8", "2" ]
+      } ],
+      "uid" : "fde2fd9cbecd187e2af8aa7a257c1251"
+    }, {
+      "name" : "16724@LAPTOP-C4C8A1FN.main(1)",
+      "children" : [ {
+        "name" : "Registration by Date of birth",
+        "uid" : "5a3dca733ce1d016",
+        "parentUid" : "85f372ee089314b58e2ecc38d239a64c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1659066510590,
+          "stop" : 1659066511803,
+          "duration" : 1213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "105462895164960577", "29", "8", "2" ]
+      } ],
+      "uid" : "85f372ee089314b58e2ecc38d239a64c"
+    }, {
+      "name" : "5064@LAPTOP-C4C8A1FN.main(1)",
+      "children" : [ {
+        "name" : "Registration by Date of birth",
+        "uid" : "e262a6b5ae832ef3",
+        "parentUid" : "c7ef2669e58efdd24a0eef84167b9672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659067412697,
+          "stop" : 1659067437640,
+          "duration" : 24943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "105462895164960577", "29", "8", "2" ]
+      } ],
+      "uid" : "c7ef2669e58efdd24a0eef84167b9672"
+    }, {
+      "name" : "16616@LAPTOP-C4C8A1FN.main(1)",
+      "children" : [ {
+        "name" : "Registration by Date of birth",
+        "uid" : "165f60bf090b8475",
+        "parentUid" : "6834e72e30c9c7fa8f32734c8361d320",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659164972543,
+          "stop" : 1659164995307,
+          "duration" : 22764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "3", "AC0215425", "22", "11", "18" ]
+      } ],
+      "uid" : "6834e72e30c9c7fa8f32734c8361d320"
+    } ],
+    "uid" : "632d3f1b94e32b1c3be499aefac7be66"
+  } ]
+}

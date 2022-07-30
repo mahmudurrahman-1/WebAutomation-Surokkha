@@ -1,0 +1,72 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCase",
+    "children" : [ {
+      "name" : "TCRegistration",
+      "children" : [ {
+        "name" : "Registration",
+        "uid" : "c73e7ae592db09cc",
+        "parentUid" : "1ab55e951f4610fa94a5673a47bff040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659031168760,
+          "stop" : 1659031193505,
+          "duration" : 24745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "1", "5164960577", "22", "11", "6" ]
+      } ],
+      "uid" : "1ab55e951f4610fa94a5673a47bff040"
+    }, {
+      "name" : "registrationbydob.TCRegistration",
+      "children" : [ {
+        "name" : "registrationbyDob",
+        "uid" : "e262a6b5ae832ef3",
+        "parentUid" : "8402f11e0524a4843ebb9ef6d910ae03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659067412697,
+          "stop" : 1659067437640,
+          "duration" : 24943
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "105462895164960577", "29", "8", "2" ]
+      } ],
+      "uid" : "registrationbydob.TCRegistration"
+    }, {
+      "name" : "registrationbypassport.TCPassport",
+      "children" : [ {
+        "name" : "registrationbyPassportdata",
+        "uid" : "165f60bf090b8475",
+        "parentUid" : "3603e713b1d156b87c2adb764dea8612",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659164972543,
+          "stop" : 1659164995307,
+          "duration" : 22764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "3", "AC0215425", "22", "11", "18" ]
+      } ],
+      "uid" : "registrationbypassport.TCPassport"
+    } ],
+    "uid" : "787f89db47e8c6cf7f049d23fac0e26f"
+  } ]
+}

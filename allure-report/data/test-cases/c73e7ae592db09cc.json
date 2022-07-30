@@ -1,0 +1,129 @@
+{
+  "uid" : "c73e7ae592db09cc",
+  "name" : "This Part is Used for registration",
+  "fullName" : "testCase.TCRegistration.Registration",
+  "historyId" : "2427fa51d785d7a693298a52b6882b9f",
+  "time" : {
+    "start" : 1659031168760,
+    "stop" : 1659031193505,
+    "duration" : 24745
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1659031151054,
+      "stop" : 1659031168595,
+      "duration" : 17541
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4b21b95a6d785d93",
+      "name" : "Registration",
+      "source" : "4b21b95a6d785d93.png",
+      "type" : "image/png",
+      "size" : 239735
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1659031193663,
+      "stop" : 1659031194757,
+      "duration" : 1094
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testCase.TCRegistration"
+  }, {
+    "name" : "testClass",
+    "value" : "testCase.TCRegistration"
+  }, {
+    "name" : "testMethod",
+    "value" : "Registration"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surokkha"
+  }, {
+    "name" : "subSuite",
+    "value" : "testCase.TCRegistration"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-C4C8A1FN"
+  }, {
+    "name" : "thread",
+    "value" : "9104@LAPTOP-C4C8A1FN.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "1"
+  }, {
+    "name" : "arg1",
+    "value" : "5164960577"
+  }, {
+    "name" : "arg2",
+    "value" : "22"
+  }, {
+    "name" : "arg3",
+    "value" : "11"
+  }, {
+    "name" : "arg4",
+    "value" : "6"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c73e7ae592db09cc.json",
+  "parameterValues" : [ "1", "5164960577", "22", "11", "6" ]
+}
