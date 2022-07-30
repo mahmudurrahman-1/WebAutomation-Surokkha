@@ -34,8 +34,8 @@ public class RegistrationPage extends Common {
         registrationbyPassportbutton.click();
     }
     @Step("Registration By Passport data")
-    public boolean RegistrationbyPassport(String Selection,String PassportNo, String day,int Month,int Year){
-        selectitem(selectBy,Selection);
+    public boolean RegistrationbyPassport(int Selection,String PassportNo, String day,int Month,int Year){
+        selectitembynumber(selectBy,Selection);
         sendText(passportNo,PassportNo);
         selectitem(days,day);
         selectitembynumber(months,Month);
