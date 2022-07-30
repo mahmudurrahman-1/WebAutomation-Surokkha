@@ -1,0 +1,87 @@
+{
+  "uuid": "52018426-d6fa-49d6-8f94-2a9ca38be249",
+  "historyId": "2427fa51d785d7a693298a52b6882b9f",
+  "fullName": "testCase.TCRegistration.Registration",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testCase.TCRegistration"
+    },
+    {
+      "name": "testClass",
+      "value": "testCase.TCRegistration"
+    },
+    {
+      "name": "testMethod",
+      "value": "Registration"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surokkha"
+    },
+    {
+      "name": "subSuite",
+      "value": "testCase.TCRegistration"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-C4C8A1FN"
+    },
+    {
+      "name": "thread",
+      "value": "9104@LAPTOP-C4C8A1FN.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "This Part is Used for registration",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Registration",
+      "source": "a2d3301f-3565-473f-89d3-2e51525f5747-attachment"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "arg3",
+      "value": "11"
+    },
+    {
+      "name": "arg2",
+      "value": "22"
+    },
+    {
+      "name": "arg4",
+      "value": "6"
+    },
+    {
+      "name": "arg1",
+      "value": "5164960577"
+    },
+    {
+      "name": "arg0",
+      "value": "1"
+    }
+  ],
+  "start": 1659031168760,
+  "stop": 1659031193505
+}

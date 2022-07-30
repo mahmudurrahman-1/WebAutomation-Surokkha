@@ -1,0 +1,78 @@
+{
+  "uuid": "5663d54c-1aaf-4528-a11f-488c054dd6f4",
+  "historyId": "46786fa8ca14b738986c27d80353eef3",
+  "fullName": "testCase.registrationbydob.TCRegistration.registrationbyDob",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "testClass",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "testMethod",
+      "value": "registrationbyDob"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surokkha"
+    },
+    {
+      "name": "subSuite",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-C4C8A1FN"
+    },
+    {
+      "name": "thread",
+      "value": "16812@LAPTOP-C4C8A1FN.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Registration by Date of birth",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg3",
+      "value": "2"
+    },
+    {
+      "name": "arg2",
+      "value": "8"
+    },
+    {
+      "name": "arg1",
+      "value": "29"
+    },
+    {
+      "name": "arg0",
+      "value": "105462895164960577"
+    }
+  ],
+  "start": 1659066667745,
+  "stop": 1659066668551
+}

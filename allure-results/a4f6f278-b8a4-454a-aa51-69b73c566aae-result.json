@@ -1,0 +1,87 @@
+{
+  "uuid": "a4f6f278-b8a4-454a-aa51-69b73c566aae",
+  "historyId": "46786fa8ca14b738986c27d80353eef3",
+  "fullName": "testCase.registrationbydob.TCRegistration.registrationbyDob",
+  "labels": [
+    {
+      "name": "package",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "testClass",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "testMethod",
+      "value": "registrationbyDob"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "Surokkha"
+    },
+    {
+      "name": "subSuite",
+      "value": "testCase.registrationbydob.TCRegistration"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-C4C8A1FN"
+    },
+    {
+      "name": "thread",
+      "value": "5064@LAPTOP-C4C8A1FN.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "Registration by Date of birth",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Registration for DOB Module",
+      "source": "49d69aed-8459-4e1d-b8c7-55c1dd31a74e-attachment"
+    },
+    {
+      "name": "Registration for DOB Module",
+      "source": "639a5719-5aeb-43b7-ab8c-9333c781be17-attachment"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "arg3",
+      "value": "2"
+    },
+    {
+      "name": "arg2",
+      "value": "8"
+    },
+    {
+      "name": "arg1",
+      "value": "29"
+    },
+    {
+      "name": "arg0",
+      "value": "105462895164960577"
+    }
+  ],
+  "start": 1659067412697,
+  "stop": 1659067437640
+}

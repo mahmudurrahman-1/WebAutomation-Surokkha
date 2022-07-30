@@ -1,0 +1,11 @@
+{
+  "uuid": "5fdee85a-354e-4c68-a8d4-b8dd633b40cd",
+  "name": "testCase.TCRegistration",
+  "children": [
+    "52018426-d6fa-49d6-8f94-2a9ca38be249"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1659031168612,
+  "stop": 1659031193651
+}
